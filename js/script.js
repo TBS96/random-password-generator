@@ -9,11 +9,7 @@ genPass = () => {
     for(let i=0; i<inputPassLenValue; i++)
     {
         const randIndex = Math.round(Math.random()*charset.length);
-        // console.log(randIndex);
-
         const randChar = charset[randIndex];
-        // console.log(randChar);
-
         randPass += randChar;
     }
     document.getElementById('showPassword').textContent = randPass;
