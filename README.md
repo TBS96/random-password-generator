@@ -1,3 +1,5 @@
-# Random Password Generator
+# DOM Mini Project - 7
 
-## src is currently wip
+``` bash
+Random Password Generator
+```
